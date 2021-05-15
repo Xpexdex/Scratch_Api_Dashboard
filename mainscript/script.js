@@ -4,6 +4,6 @@ var data;
 while (true) {
 response = await fetch("https://api.scratch.mit.edu/users/mybearworld/messages/count/");
 data = await response.json();
-document.getElementById("")
+document.getElementById("messages").innerHTML = data;
 }
 
