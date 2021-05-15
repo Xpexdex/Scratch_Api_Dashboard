@@ -11,5 +11,5 @@ var requestPlayerData = function(user,pass,passIn,item,asignTo){
   data = await response.json();
   document.getElementById(asignTo).innerHTML = data;
 };
-requestPlayerData(Xpexdex,blank,false,"/messages/count/","messages");
+requestPlayerData("Xpexdex","blank",false,"/messages/count/","messages");
 
